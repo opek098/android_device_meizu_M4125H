@@ -1,0 +1,14 @@
+cc_library_static {
+    name: "libinit_MEIZU_M4125H",
+    header_libs: [
+        "libbase_headers",
+    ],
+    cflags: [
+        "-Wall",
+    ],
+    static_libs: [
+        "libbase",
+    ],
+    srcs: ["init_MEIZU_M4125H.cpp"],
+    recovery_available: true,
+}

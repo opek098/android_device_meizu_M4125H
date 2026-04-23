@@ -171,3 +171,4 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_MEIZU_M4125H
 
 # Maintainer (optional)
 TW_MAINTAINER := "アンドレイ"
+BUILD_BROKEN_DUP_SYSPROP := true
